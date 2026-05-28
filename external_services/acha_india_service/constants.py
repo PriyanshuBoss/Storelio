@@ -1,0 +1,7 @@
+STORE_COLLECTION_NAME = 'acha_india_stores'
+PRODUCT_COLLECTION_NAME = 'acha_india_products'
+BASE_URL = 'https://www.acha.in/index.php'
+STORE_INFO_PATH = 'https://www.acha.in/index.php?ctl=Index&met=info&typ=json'
+PRODUCT_PATH = 'https://www.acha.in/index.php?ctl=Product&met=item&typ=json&item_id={{}}'
+PRODUCT_LIST_PATH = 'https://www.acha.in/index.php?ctl=Product&met=lists&typ=json&curpage={{}}'
+STORE_URL = 'https://www.acha.in'

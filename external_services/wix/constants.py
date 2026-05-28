@@ -1,0 +1,11 @@
+WIX_SOURCE = "wix"
+STORE_DETAILS_PATH = 'site-properties/v4/properties'
+PRODUCTS_PATH = 'stores/v1/products/query'
+INVENTORY_PATH = 'stores/v2/inventoryItems/query'
+DISCOUNT_PATH = 'stores/v2/coupons/query'
+COLLECTION_PATH = 'stores/v1/collections/query'
+STORE_COLLECTION_NAME = 'wix_stores'
+PRODUCT_COLLECTION_NAME = 'wix_products'
+ORDER_PATH='stores/v2/orders'
+PRODUCTS_GET_PATH = 'stores/v1/products'
+COLOR_KEYS = ['color','colors','colour','colours']

@@ -1,0 +1,7 @@
+{% extends 'admin/change_form.html' %}
+{% block submit_buttons_bottom %}
+<div style="text-align:center;" class="submit-row">
+    <input style="background-color:green;" type="submit" value="Activate Account" name="_activate_account">
+</div>
+{{ block.super }}
+{% endblock %}

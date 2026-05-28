@@ -1,0 +1,34 @@
+
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block content %}
+
+<br>
+
+{% block field_sets %}
+
+
+<form method="POST", enctype="multipart/form-data">
+  {{ form.management_form }} 
+{%for f in form%}
+  {% csrf_token %}
+
+  {{ f.as_p }}
+    <br>
+    <br>
+
+  <div class="submit-row">
+  {% block submit-row %}
+  <input type="submit" value="{% translate 'Set Store' %}" class="default" name="_save">
+  {%endblock%}
+  </div>
+
+{%endfor%}
+</form>
+
+
+
+{% endblock %}
+
+{% endblock %}

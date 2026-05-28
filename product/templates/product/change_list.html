@@ -1,0 +1,12 @@
+{% extends "admin/change_list.html" %}
+{% load i18n static %}
+
+{% block object-tools-items %}  
+{{ block.super }}
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+</script>
+<li>
+    <a href="{% url 'admin:bulk_upload_product' %}" class="btn btn-high btn-success addlink">Bulk Upload Products</a>
+    <a href="{% url 'admin:explore_upload' %}" class="btn btn-high btn-success addlink">Upload Explore Content</a>
+</li>
+{% endblock %}

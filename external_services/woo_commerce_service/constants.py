@@ -1,0 +1,15 @@
+WOOCOMMERCE_SOURCE = "woocommerce"
+BASE_API_PATH = 'wp-json/wc/v3/'
+WEBHOOK_PATH = 'webhooks'
+PRODUCTS_PATH = 'products'
+SPECIFIC_PRODUCT_PATH = 'products/{{id}}'
+VARIANTS_PATH = 'products/{{id}}/variations'
+GENERAL_SETTING_PATH = 'settings/general'
+EMAIL_SETTING_PATH = 'settings/email/woocommerce_email_from_address'
+ORDER_CREATE_PATH = 'orders'
+STORE_COLLECTION_NAME = 'woocommerce_stores'
+PRODUCT_COLLECTION_NAME = 'woocommerce_products'
+PRODUCT_FETCH_LIMIT = 90
+ATTRIBUTE_CHOICE = ['size','color']
+SIZE_KEY_LIST = ['designs','trouser size', 'baby tee size', 'oversized size', 'sizes','size', 'sizes women']
+COLOR_KEY_LIST = ['color','colour','colors','colours']

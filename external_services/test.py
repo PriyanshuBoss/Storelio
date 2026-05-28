@@ -1,0 +1,1 @@
+from saleor.external_services.wix import tasks
